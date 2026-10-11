@@ -22,7 +22,7 @@ function Header() {
           <img
             src="./public/Untitleddesign3-1740571673505-removebg-preview.png"
             className="h-10 w-10 object-cover"
-            alt="E-Cart Logo"
+            alt=""
           />
 
          
