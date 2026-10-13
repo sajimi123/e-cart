@@ -1,5 +1,7 @@
 import React from 'react'
 import { Button, ButtonGroup } from "flowbite-react";
+import { Link } from 'react-router-dom';
+import {FaArrowRight} from "react-icons/fa";
 function Home() {
   return (
     <div>
@@ -28,9 +30,13 @@ function Home() {
       </p>
 
       <div className="mt-7">
-        <Button href="/product" color="blue" size="lg">
-          Shop Now
-        </Button>
+       <Link
+                to="/product"
+                className="inline-flex items-center gap-2 self-start text-sm font-semibold text-blue-700 transition hover:text-blue-900"
+              >
+                Shop Now
+                <FaArrowRight size={12} />
+              </Link>
       </div>
     </div>
 
