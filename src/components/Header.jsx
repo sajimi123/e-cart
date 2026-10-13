@@ -20,7 +20,7 @@ function Header() {
       <NavbarBrand as={Link} to="/">
         <div className="flex items-center gap-2">
           <img
-            src="./public/Untitleddesign3-1740571673505-removebg-preview.png"
+            src="https://tse3.mm.bing.net/th/id/OIP.m_ihrcWT-qJfrwI2BxUHiAAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
             className="h-10 w-10 object-cover"
             alt=""
           />
