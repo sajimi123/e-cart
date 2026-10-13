@@ -3,8 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import Products from './Products';
 import { Button } from 'flowbite-react';
-import { addTwoWishList } from '../Redux/Slices/WishlistSlice';
-import { addToCart } from '../Redux/Slices/CartSlice';
+import { addTwoWishList } from '../Redux/Slices/wishlistSlice';
+import { addToCart } from '../Redux/Slices/cartSlice';
 
 function View() {
    const {id}=useParams()

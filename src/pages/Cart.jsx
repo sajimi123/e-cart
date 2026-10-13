@@ -20,7 +20,7 @@ import {
   emptyCart,
   incrementCart,
   removeItem,
-} from "../Redux/Slices/CartSlice";
+} from "../Redux/Slices/cartSlice";
 
 function Cart() {
   const cart = useSelector((state) => state.cartReducer);

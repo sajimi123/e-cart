@@ -13,8 +13,8 @@ import {
 } from "react-icons/fa";
 import Swal from "sweetalert2";
 
-import { deleteItem } from "../Redux/Slices/WishlistSlice";
-import { addToCart } from "../Redux/Slices/CartSlice";
+import { deleteItem } from "../Redux/Slices/wishlistSlice";
+import { addToCart } from "../Redux/Slices/cartSlice";
 
 function Wishlist() {
   const wishlist = useSelector(
